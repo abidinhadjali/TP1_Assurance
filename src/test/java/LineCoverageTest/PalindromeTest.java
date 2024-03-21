@@ -6,21 +6,18 @@ import org.junit.jupiter.api.Test;
 
 class PalindromeTest {
     @Test
-    void isPalindromeShouldReturnTrueIfElementIspalindrome(){
-        Assertions.assertTrue(Palindrome.isPalindrome("kaaak"));
+    void isPalindromeShouldReturnTrueIfElementIsPalindrome(){
+        Assertions.assertTrue(Palindrome.isPalindrome("AQLQA"));
     }
     @Test
     void isPalindromeShouldRiseAnExceptionIfTheInputIsNUll(){
         Assertions.assertThrows(NullPointerException.class,()-> Palindrome.isPalindrome(null));
     }
     @Test
-    void isPalindromeShouldReturnFalseIfElementIspalindrome(){
-        Assertions.assertFalse(Palindrome.isPalindrome("ak"));
+    void isPalindromeShouldReturnFalseIfElementIsNotPalindrome(){
+
+        Assertions.assertFalse(Palindrome.isPalindrome("akm"));
     }
-//    @Test
-//    void isPalindromeShouldReturnTrueIfJ<i(){
-//        Assertions.assertFalse(Palindrome.isPalindrome("ak"));
-//    }
 
 
 }

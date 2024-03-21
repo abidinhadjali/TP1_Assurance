@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2df37693-75fa-49d3-9cba-f036554cc5e7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/LineCoverageTest/AnagramTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LineCoverageTest/BinarySearchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LineCoverageTest/QuadraticEquationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Anagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Anagram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Palindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LineCoverageTest/AnagramTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LineCoverageTest/AnagramTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LineCoverageTest/BinarySearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LineCoverageTest/BinarySearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LineCoverageTest/PalindromeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LineCoverageTest/PalindromeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,23 +28,26 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2ctfC9gOcWkVlbN84ixc7l5YSZg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -52,38 +57,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.BinarySearchTest.isAnagramShouldReturnTheIndexOFTheMideleElementOfArrayIfTheInputElementEqualTheTheMideleElement">
-    <configuration name="AnagramTest.isAnagramShouldReturnFalseIfInputsHaveDifferentCaractersAndHaveTheSameLength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Assurance" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LineCoverageTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="LineCoverageTest" />
-      <option name="MAIN_CLASS_NAME" value="LineCoverageTest.AnagramTest" />
-      <option name="METHOD_NAME" value="isAnagramShouldReturnFalseIfInputsHaveDifferentCaractersAndHaveTheSameLength" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AnagramTest.isAnagramShouldReturnFalseIfLengthOfInputsAreDifferent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Assurance" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LineCoverageTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="LineCoverageTest" />
-      <option name="MAIN_CLASS_NAME" value="LineCoverageTest.AnagramTest" />
-      <option name="METHOD_NAME" value="isAnagramShouldReturnFalseIfLengthOfInputsAreDifferent" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="AnagramTest.isAnagramShouldReturnTrueIfInputsHaveSameCaractersAndHaveTheSameLength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Assurance" />
       <extension name="coverage">
@@ -95,6 +68,22 @@
       <option name="PACKAGE_NAME" value="LineCoverageTest" />
       <option name="MAIN_CLASS_NAME" value="LineCoverageTest.AnagramTest" />
       <option name="METHOD_NAME" value="isAnagramShouldReturnTrueIfInputsHaveSameCaractersAndHaveTheSameLength" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinarySearchTest.isAnagramShouldReturnMinsoneTheElementDoesNotExist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assurance" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LineCoverageTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="LineCoverageTest" />
+      <option name="MAIN_CLASS_NAME" value="LineCoverageTest.BinarySearchTest" />
+      <option name="METHOD_NAME" value="isAnagramShouldReturnMinsoneTheElementDoesNotExist" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -132,13 +121,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PalindromeTest.isPalindromeShouldReturnTrueIfElementIsPalindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assurance" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LineCoverageTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="LineCoverageTest" />
+      <option name="MAIN_CLASS_NAME" value="LineCoverageTest.PalindromeTest" />
+      <option name="METHOD_NAME" value="isPalindromeShouldReturnTrueIfElementIsPalindrome" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.BinarySearchTest.isAnagramShouldReturnTheIndexOFTheMideleElementOfArrayIfTheInputElementEqualTheTheMideleElement" />
+        <item itemvalue="JUnit.BinarySearchTest.isAnagramShouldReturnMinsoneTheElementDoesNotExist" />
+        <item itemvalue="JUnit.PalindromeTest.isPalindromeShouldReturnTrueIfElementIsPalindrome" />
         <item itemvalue="JUnit.BinarySearchTest.isAnagramShouldReturnTheMideleElementOfArrayIfTheInputElementEqualTheTheMideleElement" />
         <item itemvalue="JUnit.AnagramTest.isAnagramShouldReturnTrueIfInputsHaveSameCaractersAndHaveTheSameLength" />
-        <item itemvalue="JUnit.AnagramTest.isAnagramShouldReturnFalseIfInputsHaveDifferentCaractersAndHaveTheSameLength" />
-        <item itemvalue="JUnit.AnagramTest.isAnagramShouldReturnFalseIfLengthOfInputsAreDifferent" />
       </list>
     </recent_temporary>
   </component>
@@ -158,13 +163,21 @@
       <option name="project" value="LOCAL" />
       <updated>1708986254696</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="EXO3Test(in progress)">
+      <created>1710920864960</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710920864960</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="empty" />
     <MESSAGE value="EXO1Test(in progress)" />
-    <option name="LAST_COMMIT_MESSAGE" value="EXO1Test(in progress)" />
+    <MESSAGE value="EXO3Test(in progress)" />
+    <option name="LAST_COMMIT_MESSAGE" value="EXO3Test(in progress)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -173,15 +186,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Anagram.java</url>
           <line>15</line>
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/LineCoverageTest/BinarySearchTest.java</url>
-          <line>15</line>
-          <properties class="LineCoverageTest.BinarySearchTest" method="isAnagramShouldReturnTheMideleElementOfArrayIfTheInputElementEqualTheTheMideleElement">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

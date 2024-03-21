@@ -7,21 +7,37 @@ import org.junit.jupiter.api.Test;
 
 public class BinarySearchTest {
     @Test
-    void  isAnagramShouldRiseExceptionIfTheArrayInputIsNull() {
+    void  binarySearchShouldRiseExceptionIfTheArrayInputIsNull() {
 
         Assertions.assertThrows(NullPointerException.class,()-> BinarySearch.binarySearch(null,5));
 
     }
     @Test
-    void  isAnagramShouldReturnTheIndexOFTheMideleElementOfArrayIfTheInputElementEqualTheTheMideleElement() {
-        int[] array= new int[4];
-        for (int i = 0; i <=4; i++) {
-            array[i]=i+1;
+    void  binarySearchShouldReturnTheRightIndexIfInputElementExistInArray() {
+        int[] array= new int[5];
 
-        }
-        System.out.println((2+3)/2);
+        array[0]=1;
+        array[1]=2;
+        array[2]=7;
+        array[3]=10;
+        array[4]=15;
 
-        Assertions.assertEquals(BinarySearch.binarySearch(array,5),'2');
+
+        Assertions.assertEquals(2,BinarySearch.binarySearch(array,7));
     }
+    @Test
+    void  binarySearchShouldReturnMinusOneTheElementDoesNotExist() {
+        int[] array= new int[4];
+
+        array[0]=1;
+        array[1]=2;
+        array[2]=3;
+        array[3]=4;
+        Assertions.assertEquals(-1,BinarySearch.binarySearch(array,8));
+
+
+    }
+
+
 
 }

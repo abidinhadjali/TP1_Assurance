@@ -19,7 +19,7 @@ public class AnagramTest {
     @Test
     void  isAnagramShouldReturnFalseIfInputsHaveDifferentCaractersAndHaveTheSameLength() {
 
-        Assertions.assertFalse( Anagram.isAnagram("AQl","Ass"));
+        Assertions.assertFalse( Anagram.isAnagram("AQl","Amm"));
     }
     @Test
     void  isAnagramShouldReturnTrueIfInputsHaveSameCaractersAndHaveTheSameLength() {
