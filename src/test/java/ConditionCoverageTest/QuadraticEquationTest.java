@@ -1,7 +1,5 @@
-package LineCoverageTest;
+package ConditionCoverageTest;
 
-import org.example.BinarySearch;
-import org.example.Palindrome;
 import org.example.QuadraticEquation;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

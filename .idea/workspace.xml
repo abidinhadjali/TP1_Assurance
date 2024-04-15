@@ -5,12 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2df37693-75fa-49d3-9cba-f036554cc5e7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/LineCoverageTest/QuadraticEquationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BranchCoverageTest/AnagramTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BranchCoverageTest/BinarySearchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BranchCoverageTest/PalindromeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BranchCoverageTest/QuadraticEquationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BranchCoverageTest/RomanNumeralTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BranchCoverageTest/fizzBuzzTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ConditionCoverageTest/AnagramTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ConditionCoverageTest/BinarysearhTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ConditionCoverageTest/PalindromTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ConditionCoverageTest/QuadraticEquationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ConditionCoverageTest/RomunNumeralTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ConditionCoverageTest/fizzBuzzTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LineCoverageTest/RomanNumeralTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LineCoverageTest/fizzBuzzTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Palindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LineCoverageTest/AnagramTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LineCoverageTest/AnagramTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LineCoverageTest/BinarySearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LineCoverageTest/BinarySearchTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LineCoverageTest/PalindromeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LineCoverageTest/PalindromeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LineCoverageTest/QuadraticEquationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LineCoverageTest/QuadraticEquationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,113 +47,117 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "C:/Users/HadjAli/Desktop/GL23_24-main/TP1/src/test/java/BranchCoverageTest",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HadjAli\Desktop\GL23_24-main\TP1\src\test\java\BranchCoverageTest" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="LineCoverageTest" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="BranchCoverageTest" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.BinarySearchTest.isAnagramShouldReturnTheIndexOFTheMideleElementOfArrayIfTheInputElementEqualTheTheMideleElement">
-    <configuration name="AnagramTest.isAnagramShouldReturnTrueIfInputsHaveSameCaractersAndHaveTheSameLength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PalindromTest.isPalindromeShouldReturnTrueIfElementIsPalindrome">
+    <configuration name="PalindromTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Assurance" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LineCoverageTest.*" />
+          <option name="PATTERN" value="ConditionCoverageTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="LineCoverageTest" />
-      <option name="MAIN_CLASS_NAME" value="LineCoverageTest.AnagramTest" />
-      <option name="METHOD_NAME" value="isAnagramShouldReturnTrueIfInputsHaveSameCaractersAndHaveTheSameLength" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="ConditionCoverageTest" />
+      <option name="MAIN_CLASS_NAME" value="ConditionCoverageTest.PalindromTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinarySearchTest.isAnagramShouldReturnMinsoneTheElementDoesNotExist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PalindromTest.isPalindromeShouldReturnTrueIfElementIsPalindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Assurance" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LineCoverageTest.*" />
+          <option name="PATTERN" value="ConditionCoverageTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="LineCoverageTest" />
-      <option name="MAIN_CLASS_NAME" value="LineCoverageTest.BinarySearchTest" />
-      <option name="METHOD_NAME" value="isAnagramShouldReturnMinsoneTheElementDoesNotExist" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BinarySearchTest.isAnagramShouldReturnTheIndexOFTheMideleElementOfArrayIfTheInputElementEqualTheTheMideleElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Assurance" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LineCoverageTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="LineCoverageTest" />
-      <option name="MAIN_CLASS_NAME" value="LineCoverageTest.BinarySearchTest" />
-      <option name="METHOD_NAME" value="isAnagramShouldReturnTheIndexOFTheMideleElementOfArrayIfTheInputElementEqualTheTheMideleElement" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BinarySearchTest.isAnagramShouldReturnTheMideleElementOfArrayIfTheInputElementEqualTheTheMideleElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Assurance" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LineCoverageTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="LineCoverageTest" />
-      <option name="MAIN_CLASS_NAME" value="LineCoverageTest.BinarySearchTest" />
-      <option name="METHOD_NAME" value="isAnagramShouldReturnTheMideleElementOfArrayIfTheInputElementEqualTheTheMideleElement" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PalindromeTest.isPalindromeShouldReturnTrueIfElementIsPalindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Assurance" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LineCoverageTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="LineCoverageTest" />
-      <option name="MAIN_CLASS_NAME" value="LineCoverageTest.PalindromeTest" />
+      <option name="PACKAGE_NAME" value="ConditionCoverageTest" />
+      <option name="MAIN_CLASS_NAME" value="ConditionCoverageTest.PalindromTest" />
       <option name="METHOD_NAME" value="isPalindromeShouldReturnTrueIfElementIsPalindrome" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="QuadraticEquationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assurance" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ConditionCoverageTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ConditionCoverageTest" />
+      <option name="MAIN_CLASS_NAME" value="ConditionCoverageTest.QuadraticEquationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RomanNumeralTest.toRomanShouldReturnTheRightTerm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assurance" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LineCoverageTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="LineCoverageTest" />
+      <option name="MAIN_CLASS_NAME" value="LineCoverageTest.RomanNumeralTest" />
+      <option name="METHOD_NAME" value="toRomanShouldReturnTheRightTerm" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="fizzBuzzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assurance" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ConditionCoverageTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ConditionCoverageTest" />
+      <option name="MAIN_CLASS_NAME" value="ConditionCoverageTest.fizzBuzzTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BinarySearchTest.isAnagramShouldReturnTheIndexOFTheMideleElementOfArrayIfTheInputElementEqualTheTheMideleElement" />
-        <item itemvalue="JUnit.BinarySearchTest.isAnagramShouldReturnMinsoneTheElementDoesNotExist" />
-        <item itemvalue="JUnit.PalindromeTest.isPalindromeShouldReturnTrueIfElementIsPalindrome" />
-        <item itemvalue="JUnit.BinarySearchTest.isAnagramShouldReturnTheMideleElementOfArrayIfTheInputElementEqualTheTheMideleElement" />
-        <item itemvalue="JUnit.AnagramTest.isAnagramShouldReturnTrueIfInputsHaveSameCaractersAndHaveTheSameLength" />
+        <item itemvalue="JUnit.PalindromTest.isPalindromeShouldReturnTrueIfElementIsPalindrome" />
+        <item itemvalue="JUnit.PalindromTest" />
+        <item itemvalue="JUnit.QuadraticEquationTest" />
+        <item itemvalue="JUnit.fizzBuzzTest" />
+        <item itemvalue="JUnit.RomanNumeralTest.toRomanShouldReturnTheRightTerm" />
       </list>
     </recent_temporary>
   </component>
@@ -170,14 +184,22 @@
       <option name="project" value="LOCAL" />
       <updated>1710920864960</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="EXO4Test(in progress)">
+      <created>1711005988953</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1711005988953</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="empty" />
     <MESSAGE value="EXO1Test(in progress)" />
     <MESSAGE value="EXO3Test(in progress)" />
-    <option name="LAST_COMMIT_MESSAGE" value="EXO3Test(in progress)" />
+    <MESSAGE value="EXO4Test(in progress)" />
+    <option name="LAST_COMMIT_MESSAGE" value="EXO4Test(in progress)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -186,6 +208,24 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Anagram.java</url>
           <line>15</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/BranchCoverageTest/AnagramTest.java</url>
+          <line>13</line>
+          <properties class="BranchCoverageTest.AnagramTest" method="isAnagramShouldRiseExceptionIfTheFirstInputsIsNull">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/BranchCoverageTest/RomanNumeralTest.java</url>
+          <line>13</line>
+          <properties class="BranchCoverageTest.RomanNumeralTest" method="toRomanShouldRiseExceptionIfInputIsNegative">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
