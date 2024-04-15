@@ -5,22 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2df37693-75fa-49d3-9cba-f036554cc5e7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/BranchCoverageTest/AnagramTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BranchCoverageTest/BinarySearchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BranchCoverageTest/PalindromeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BranchCoverageTest/QuadraticEquationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BranchCoverageTest/RomanNumeralTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BranchCoverageTest/fizzBuzzTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ConditionCoverageTest/AnagramTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ConditionCoverageTest/BinarysearhTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ConditionCoverageTest/PalindromTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ConditionCoverageTest/QuadraticEquationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ConditionCoverageTest/RomunNumeralTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ConditionCoverageTest/fizzBuzzTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LineCoverageTest/RomanNumeralTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LineCoverageTest/fizzBuzzTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LineCoverageTest/QuadraticEquationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LineCoverageTest/QuadraticEquationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711005988953</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="EXO4Test(in progress)">
+      <created>1713180570976</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1713180570976</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -226,6 +218,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/ConditionCoverageTest/PalindromTest.java</url>
+          <line>8</line>
+          <properties class="ConditionCoverageTest.PalindromTest" method="isPalindromeShouldReturnTrueIfElementIsPalindrome">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

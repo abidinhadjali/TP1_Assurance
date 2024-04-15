@@ -27,4 +27,5 @@ public class QuadraticEquationTest {
         Assertions.assertArrayEquals(new double[]{1,-1}, QuadraticEquation.solve(1,0,-1));
 
     }
+
 }
